@@ -1,6 +1,6 @@
 # Privacy Policy
 
-_Last updated: 2025-09-30_
+_Last updated: 30-09-2025_
 
 This Privacy Policy explains how Panda Logica Ltd (“we”, “our”, “us”) collects, uses, and protects personal data when you use MBI (“the Software”), our websites, and related services.
 
