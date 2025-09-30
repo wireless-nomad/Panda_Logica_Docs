@@ -1,0 +1,34 @@
+{
+  "snippets/getting-started/first-login-prerequisites.snippet.html": {
+    "sha256": "3196eec408c0d89136e5d9e7472a729ff716be28615b65e234b2f13441c3dcd3",
+    "heading": "Prerequisites"
+  },
+  "snippets/getting-started/first-login-1-launch-&-activate.snippet.html": {
+    "sha256": "5734d3a434defa2da33d630893033eb5b0f21b289b20a0ba416eee7db41d047f",
+    "heading": "1) Launch & Activate"
+  },
+  "snippets/getting-started/first-login-2-pick-your-data-source.snippet.html": {
+    "sha256": "9cc78d24c6151b0f332c5ff160c7b2f829ce31fb1b5404d52be85729feb32a2a",
+    "heading": "2) Pick your data source"
+  },
+  "snippets/getting-started/first-login-3-home-screen-tour.snippet.html": {
+    "sha256": "3af4eb8d104a02b89318377eea982d158ec113ba9eb791ac5264ad5b6690c9d2",
+    "heading": "3) Home screen tour"
+  },
+  "snippets/getting-started/first-login-4-run-your-first-query.snippet.html": {
+    "sha256": "0a787f9802c1acdf0cc39032c0d83edff9c7528dca388dd0d5f56e741a67f1e3",
+    "heading": "4) Run your first query"
+  },
+  "snippets/getting-started/first-login-5-save-your-layout.snippet.html": {
+    "sha256": "f0c24615e36030fcbb6c9df4bad090715ff07ee52e646270e99276180b7fcddf",
+    "heading": "5) Save your layout"
+  },
+  "snippets/getting-started/first-login-6-next-steps.snippet.html": {
+    "sha256": "a24cd30f69d5bee7ae79423d25d79d8da1773d66a725a5cd28bfdc2803f131f8",
+    "heading": "6) Next steps"
+  },
+  "snippets/getting-started/first-login-faq.snippet.html": {
+    "sha256": "286dda9a96204be75d51888d489da321667464a225ec8f3263eca0a8a27f77c4",
+    "heading": "FAQ"
+  }
+}
