@@ -40,6 +40,9 @@ def main():
         for heading, body in sectionize(text):
             write_snippet(path, heading, body)
 
+    # ✅ Ensure public/ exists
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+
     # Write manifest.json
     manifest_file = pathlib.Path("public/manifest.json")
     manifest_file.write_text(json.dumps(MANIFEST, indent=2), encoding="utf-8")
