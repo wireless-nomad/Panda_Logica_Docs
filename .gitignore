@@ -1,0 +1,16 @@
+# Python venv
+venv/
+ENV/
+.env
+*.pyc
+__pycache__/
+
+# Build outputs
+public/
+site/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
