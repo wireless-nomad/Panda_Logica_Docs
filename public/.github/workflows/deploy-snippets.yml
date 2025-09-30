@@ -1,0 +1,39 @@
+name: Build & Deploy Docs Snippets
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          pip install markdown bleach
+
+      - name: Build snippets
+        run: |
+          python scripts/build_snippets.py
+
+      - name: Upload artifact (debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: snippets
+          path: public/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
