@@ -1,6 +1,6 @@
 # End User License Agreement (EULA)
 
-_Last updated: [DATE]_
+_Last updated: [30-09-2025]_
 
 This End User License Agreement (“Agreement”) is a legal agreement between you (“Licensee”, “you”) and Panda Logica Ltd (“Licensor”, “we”, “our”, “us”) for the use of the MBI software product (“MBI”, “the Software”).  
 By installing, copying, or otherwise using MBI, you agree to be bound by the terms of this Agreement.  

@@ -1,6 +1,6 @@
 # Terms and Conditions
 
-_Last updated: [30-09-2025]
+_Last updated: [30-09-2025]_
 
 These Terms and Conditions (“Terms”) govern your access to and use of the MBI software (“MBI”, “the Software”), provided by Panda Logica Ltd (“we”, “our”, “us”).  
 By installing, accessing, or using MBI, you agree to be bound by these Terms.  
