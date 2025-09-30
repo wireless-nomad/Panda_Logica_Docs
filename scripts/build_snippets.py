@@ -1,8 +1,10 @@
 import re, pathlib, hashlib, json
 import markdown, bleach
 
-SRC_DIR = pathlib.Path("docs")     # where your .md files live
-OUT_DIR = pathlib.Path("public/snippets")  # output root for snippets
+# Always resolve from repo root (script may be called from anywhere)
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+SRC_DIR = ROOT / "docs"              # source markdown
+OUT_DIR = ROOT / "public/snippets"   # output folder
 MANIFEST = {}
 
 # Bleach whitelist
@@ -45,8 +47,11 @@ def write_snippet(md_file: pathlib.Path, heading: str, body: str):
     outfile.write_text(clean, encoding="utf-8")
 
     sha256 = hashlib.sha256(clean.encode("utf-8")).hexdigest()
-    manifest_key = str(outfile.relative_to("public"))
-    MANIFEST[manifest_key] = {"sha256": sha256}
+    manifest_key = str(outfile.relative_to(ROOT / "public"))   # ✅ fix here
+    MANIFEST[manifest_key] = {
+        "sha256": sha256,
+        "heading": heading
+    }
 
 def main():
     for md_file in SRC_DIR.rglob("*.md"):
@@ -54,11 +59,12 @@ def main():
         for heading, body in sectionize(text):
             write_snippet(md_file, heading, body)
 
-    # Ensure public/ exists
-    OUT_DIR.parent.mkdir(parents=True, exist_ok=True)
+    # ✅ Ensure both public/ and public/snippets/ exist
+    (ROOT / "public").mkdir(parents=True, exist_ok=True)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Write manifest.json at public/ root
-    manifest_file = pathlib.Path("public/manifest.json")
+    # ✅ Write manifest.json in <repo-root>/public/ (not relative CWD)
+    manifest_file = ROOT / "public" / "manifest.json"
     manifest_file.write_text(json.dumps(MANIFEST, indent=2), encoding="utf-8")
 
 if __name__ == "__main__":
