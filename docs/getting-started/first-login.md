@@ -6,8 +6,8 @@ Welcome! This guide walks you through your **first sign-in**, **license activati
 
 ## Prerequisites
 - Your company admin has invited you, or you registered during setup.
-- You have your **email** and **password** (or SSO if enabled).
-- If prompted for a license, have your **license key** ready.
+- You have your company administrator's **email** and **password** 
+- Your **license key** and **product name** ready.
 
 > 💡 Tip: If you’re a company admin, see **[Initial Admin Setup](../admin-guides/roles.md)** first.
 
@@ -17,9 +17,6 @@ Welcome! This guide walks you through your **first sign-in**, **license activati
 3. Enter your **company admin email address** and the **product key** you received in your admin’s email.
 4. Click **Activate** to continue.
 
-If you use SSO, select your provider (e.g., Microsoft 365) and complete the sign-in.
-
-> Having trouble? See **[Licensing Troubleshooting](../admin-guides/licensing.md#troubleshooting)**.
 
 ## 2) Pick your data source
 1. Choose your environment (e.g., **IBM i**, **SQL Server**, **Access**).
