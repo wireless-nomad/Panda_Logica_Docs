@@ -71,7 +71,8 @@ def main():
     (ROOT / "public").mkdir(parents=True, exist_ok=True)
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    manifest_file = ROOT / "public" / "manifest.json"
+    manifest_file = ROOT / "public" / "snippets" / "mbi" / "manifest.json"
+    manifest_file.parent.mkdir(parents=True, exist_ok=True)
     manifest_list = list(TREE.values())
     manifest_file.write_text(json.dumps(manifest_list, indent=2), encoding="utf-8")
 
