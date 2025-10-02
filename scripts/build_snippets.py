@@ -1,9 +1,8 @@
 import re, pathlib, hashlib, json, datetime
 
-# Always resolve from repo root
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-SRC_DIR = ROOT / "docs"              # source markdown
-OUT_DIR = ROOT / "public/snippets"   # output folder
+SRC_DIR = ROOT / "docs"
+OUT_DIR = ROOT / "public/snippets"
 
 def slugify(text: str) -> str:
     return (
@@ -22,28 +21,22 @@ def sectionize(md_text: str):
     for i in range(1, len(parts), 2):
         heading_line = parts[i].strip()
         body = parts[i] + parts[i+1]
-        heading_level = heading_line.count("#")  # ## → 2, ### → 3
+        heading_level = heading_line.count("#")
         heading = heading_line.strip("# ").strip()
         yield heading, body, heading_level
 
 def write_snippet(docset: str, md_file: pathlib.Path, heading: str, body: str, heading_level: int, order: int, tree: dict):
-    rel_path = md_file.relative_to(SRC_DIR / docset).with_suffix("")  # e.g. getting-started/first-login
+    rel_path = md_file.relative_to(SRC_DIR / docset).with_suffix("")
     slug = slugify(heading)
 
-    # Output path
     outfile = OUT_DIR / docset / rel_path.parent / f"{rel_path.name}-{slug}.snippet.md"
     outfile.parent.mkdir(parents=True, exist_ok=True)
     outfile.write_text(body.strip() + "\n", encoding="utf-8")
 
-    # Compute hash + modified time
     sha256 = hashlib.sha256(body.encode("utf-8")).hexdigest()
     last_modified = datetime.datetime.utcfromtimestamp(md_file.stat().st_mtime).isoformat() + "Z"
 
-    # Section name = first part of path (e.g. "getting-started")
-    if rel_path.parts:
-        section = rel_path.parts[0]
-    else:
-        section = "root"
+    section = rel_path.parts[0] if rel_path.parts else "root"
 
     if section not in tree:
         tree[section] = {
@@ -71,17 +64,28 @@ def build_docset(docset: str):
             write_snippet(docset, md_file, heading, body, heading_level, order, tree)
             order += 1
 
-    # Write manifest.json into docset folder
     manifest_file = ROOT / "public" / "snippets" / docset / "manifest.json"
     manifest_file.parent.mkdir(parents=True, exist_ok=True)
     manifest_list = list(tree.values())
     manifest_file.write_text(json.dumps(manifest_list, indent=2), encoding="utf-8")
 
 def main():
-    # detect all docsets (top-level folders under docs/)
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    index = []
+
     for docset_dir in SRC_DIR.iterdir():
         if docset_dir.is_dir():
             build_docset(docset_dir.name)
+            index.append({
+                "title": docset_dir.name.replace("-", " ").title() + " Documentation",
+                "slug": docset_dir.name,
+                "manifest": f"snippets/{docset_dir.name}/manifest.json"
+            })
+
+    # Write root index.json
+    index_file = ROOT / "public" / "snippets" / "index.json"
+    index_file.parent.mkdir(parents=True, exist_ok=True)
+    index_file.write_text(json.dumps(index, indent=2), encoding="utf-8")
 
 if __name__ == "__main__":
     main()
