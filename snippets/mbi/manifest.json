@@ -1,7 +1,7 @@
 [
   {
-    "title": "Mbi",
-    "slug": "mbi",
+    "title": "Getting Started",
+    "slug": "getting-started",
     "children": [
       {
         "title": "Prerequisites",
@@ -9,7 +9,7 @@
         "sha256": "101872eb6adacd88c18d4d09dbd59f312482addb4704c59c3691c10cb4bdc45c",
         "order": 1,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       },
       {
         "title": "1) Launch & Activate",
@@ -17,7 +17,7 @@
         "sha256": "1d7dece46ebee5e53716f5130e98f14152bc6ae23e8847bb6888bd2380632141",
         "order": 2,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       },
       {
         "title": "2) Pick your data source",
@@ -25,7 +25,7 @@
         "sha256": "ebee6a3dc03abdb9236ff1f3f84032d78cdd329e1448821c37ca096fb8565043",
         "order": 3,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       },
       {
         "title": "3) Home screen tour",
@@ -33,7 +33,7 @@
         "sha256": "759644048228096670336085731d66874f39bffa192dafce1ade17782ccb53c5",
         "order": 4,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       },
       {
         "title": "4) Run your first query",
@@ -41,7 +41,7 @@
         "sha256": "2c963630808c45e9dbdbb951519542202a75c72abbe3c1095d783113a976f94b",
         "order": 5,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       },
       {
         "title": "5) Save your layout",
@@ -49,7 +49,7 @@
         "sha256": "b989270626fd3bdace20dbf51cf13715042b5d69a882263a430abdaf6f01c7f9",
         "order": 6,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       },
       {
         "title": "6) Next steps",
@@ -57,7 +57,7 @@
         "sha256": "92142eefcf757bfb26161e235c440341d71f4e3a83e43741ffc73c7f751452a3",
         "order": 7,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       },
       {
         "title": "FAQ",
@@ -65,7 +65,7 @@
         "sha256": "58c7ae147f4e36bfacf829ae8caad3860925ce088ee2c558301577bf3bab6b59",
         "order": 8,
         "heading_level": 2,
-        "last_modified": "2025-10-02T08:09:09.749712Z"
+        "last_modified": "2025-10-02T09:11:19.256879Z"
       }
     ]
   }
