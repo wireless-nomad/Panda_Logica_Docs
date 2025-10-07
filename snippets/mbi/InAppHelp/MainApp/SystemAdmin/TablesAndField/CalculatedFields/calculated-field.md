@@ -1,6 +1,6 @@
 # Define/Edit a Calculated Field
 
-![Calculated Field Screen](images/CalculatedField.png)
+![Calculated Field Screen](Images/CalculatedField.png)
 
 The **Define/Edit a Calculated Field** window allows MBI administrators
 or advanced users to create custom computed fields that can be reused
