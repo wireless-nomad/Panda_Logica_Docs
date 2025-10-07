@@ -1,6 +1,6 @@
 # Define/Edit a Calculated Field
 
-![Calculated Field Screen](Panda_Logica_Docs/snippets/mbi/InAppHelp/MainApp/images/calculated-field.png)
+![Calculated Field Screen](images/calculated-field.png)
 
 The **Define/Edit a Calculated Field** window allows MBI administrators
 or advanced users to create custom computed fields that can be reused
