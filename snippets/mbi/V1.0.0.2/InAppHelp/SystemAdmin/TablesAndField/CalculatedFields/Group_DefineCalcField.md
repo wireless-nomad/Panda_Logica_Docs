@@ -23,15 +23,15 @@ This screen is divided into **three main sections**:
     This panel defines the properties of the calculated field:
 
     -   **Field Name:** A unique name automatically prefixed with
-        `*CALC`.\
-    -   **Field Text:** A descriptive label for the field.\
-    -   **Field Type:** Choose **Numeric** or **Alphanumeric**.\
+        `*CALC`.
+    -   **Field Text:** A descriptive label for the field.
+    -   **Field Type:** Choose **Numeric** or **Character**.
     -   **Pivot Type:** Determines how the field behaves in pivot
         tables:
         -   **Measure** -- numeric value usable in aggregations
-            (e.g. sums, averages)\
-        -   **Data Item** -- treated as a dimension or category\
-        -   **None** -- excluded from pivot usage entirely\
+            (e.g. sums, averages)
+        -   **Data Item** -- treated as a dimension or category
+        -   **None** -- excluded from pivot usage entirely
     -   **Decimal Places:** Defines numeric precision when applicable.
 
 3.  **Field Expression -- Formula Definition**\
@@ -71,14 +71,12 @@ that table.
 ## Notes & Best Practices
 
 -   Maintain consistent naming conventions to make calculated fields
-    easily recognisable.\
+    easily recognisable.
 -   Keep expressions efficient; overly complex formulas may impact
-    performance.\
+    performance.
 -   Validate data types to prevent conversion issues during aggregation
-    or display.\
+    or display.
 -   Calculated fields are stored at table level --- editing or deleting
     them affects all dependent queries.
 
 ------------------------------------------------------------------------
-
-*End of document.*
