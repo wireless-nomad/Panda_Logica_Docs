@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Getting Started",
+    "slug": "getting-started",
+    "children": [
+      {
+        "title": "1) Launch & Activate",
+        "slug": "getting-started/first-login-1-launch-and-activate.snippet.md",
+        "sha256": "687612f2c96369144f2c74bd5927b204cb978a09c86a0571352d02eaa5a859a9",
+        "order": 1,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.642022+00:00"
+      },
+      {
+        "title": "2) Pick your data source",
+        "slug": "getting-started/first-login-2-pick-your-data-source.snippet.md",
+        "sha256": "63c56b422a10fc9cb0da99a62ba34a316d7ae856c1d54cefe221b399cd4efeb8",
+        "order": 2,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.642022+00:00"
+      },
+      {
+        "title": "3) Home screen tour",
+        "slug": "getting-started/first-login-3-home-screen-tour.snippet.md",
+        "sha256": "3964daa412305d3fbb1af7b46340b39eebfed4d9286633a124ac60e45d23a596",
+        "order": 3,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.642022+00:00"
+      },
+      {
+        "title": "4) Run your first query",
+        "slug": "getting-started/first-login-4-run-your-first-query.snippet.md",
+        "sha256": "ac6ae1ca984362e2ab0bb22cde7ecc97a510f2ca47daae2049791c31286fc012",
+        "order": 4,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+      },
+      {
+        "title": "5) Save your layout",
+        "slug": "getting-started/first-login-5-save-your-layout.snippet.md",
+        "sha256": "82bd2fa4763be0d5bc2eed8649a358601df8d241525963d888fd045e747a9ff5",
+        "order": 5,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+      },
+      {
+        "title": "6) Next steps",
+        "slug": "getting-started/first-login-6-next-steps.snippet.md",
+        "sha256": "f131a6409406e8ceaf8b5768674296830dfe64f2dd9859692fd85b5e226a52da",
+        "order": 6,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+      },
+      {
+        "title": "FAQ",
+        "slug": "getting-started/first-login-faq.snippet.md",
+        "sha256": "14ef0a32936901bd47f758e14a9eebafb35cda171cf730314a29fa12cacf48fa",
+        "order": 7,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+      },
+      {
+        "title": "Prerequisites",
+        "slug": "getting-started/first-login-prerequisites.snippet.md",
+        "sha256": "24cff89ae9eff0ddb5881994b3ea5aa7e345f452b7092a6606b76c373df39037",
+        "order": 8,
+        "heading_level": 2,
+        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+      }
+    ]
+  },
+  {
+    "title": "Inapphelp",
+    "slug": "InAppHelp",
+    "children": [
+      {
+        "title": "Mainapp",
+        "slug": "InAppHelp/MainApp",
+        "children": [
+          {
+            "title": "Dashboard Accordion",
+            "slug": "InAppHelp/MainApp/DashboardAccordion/DashboardAccordion.md",
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+            "order": 1,
+            "heading_level": 2,
+            "last_modified": "2025-10-09T02:00:12.641022+00:00"
+          },
+          {
+            "title": "Main Menu Accordion",
+            "slug": "InAppHelp/MainApp/MainMenuAccordion/MainMenuAccordion.md",
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+            "order": 2,
+            "heading_level": 2,
+            "last_modified": "2025-10-09T02:00:12.641022+00:00"
+          }
+        ]
+      },
+      {
+        "title": "Systemadmin",
+        "slug": "InAppHelp/SystemAdmin",
+        "children": [
+          {
+            "title": "Tablesandfield",
+            "slug": "InAppHelp/SystemAdmin/TablesAndField",
+            "children": [
+              {
+                "title": "Define/Edit a Calculated Field",
+                "slug": "InAppHelp/SystemAdmin/TablesAndField/CalculatedFields/Group_DefineCalcField.md",
+                "sha256": "7c7ce75fc3b6e61028a18b863d413183fbe6926e3e540241838d30ebb09e6236",
+                "order": 1,
+                "heading_level": 1,
+                "last_modified": "2025-10-09T02:00:12.641022+00:00"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
