@@ -9,7 +9,7 @@
         "sha256": "687612f2c96369144f2c74bd5927b204cb978a09c86a0571352d02eaa5a859a9",
         "order": 1,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.642022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       },
       {
         "title": "2) Pick your data source",
@@ -17,7 +17,7 @@
         "sha256": "63c56b422a10fc9cb0da99a62ba34a316d7ae856c1d54cefe221b399cd4efeb8",
         "order": 2,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.642022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       },
       {
         "title": "3) Home screen tour",
@@ -25,7 +25,7 @@
         "sha256": "3964daa412305d3fbb1af7b46340b39eebfed4d9286633a124ac60e45d23a596",
         "order": 3,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.642022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       },
       {
         "title": "4) Run your first query",
@@ -33,7 +33,7 @@
         "sha256": "ac6ae1ca984362e2ab0bb22cde7ecc97a510f2ca47daae2049791c31286fc012",
         "order": 4,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       },
       {
         "title": "5) Save your layout",
@@ -41,7 +41,7 @@
         "sha256": "82bd2fa4763be0d5bc2eed8649a358601df8d241525963d888fd045e747a9ff5",
         "order": 5,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       },
       {
         "title": "6) Next steps",
@@ -49,7 +49,7 @@
         "sha256": "f131a6409406e8ceaf8b5768674296830dfe64f2dd9859692fd85b5e226a52da",
         "order": 6,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       },
       {
         "title": "FAQ",
@@ -57,7 +57,7 @@
         "sha256": "14ef0a32936901bd47f758e14a9eebafb35cda171cf730314a29fa12cacf48fa",
         "order": 7,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       },
       {
         "title": "Prerequisites",
@@ -65,16 +65,16 @@
         "sha256": "24cff89ae9eff0ddb5881994b3ea5aa7e345f452b7092a6606b76c373df39037",
         "order": 8,
         "heading_level": 2,
-        "last_modified": "2025-10-09T02:00:12.643022+00:00"
+        "last_modified": "2025-10-09T03:18:42.074111+00:00"
       }
     ]
   },
   {
-    "title": "Inapphelp",
+    "title": "Application Help",
     "slug": "InAppHelp",
     "children": [
       {
-        "title": "Mainapp",
+        "title": "MBI Help",
         "slug": "InAppHelp/MainApp",
         "children": [
           {
@@ -83,7 +83,7 @@
             "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
             "order": 1,
             "heading_level": 2,
-            "last_modified": "2025-10-09T02:00:12.641022+00:00"
+            "last_modified": "2025-10-09T03:18:42.072111+00:00"
           },
           {
             "title": "Main Menu Accordion",
@@ -91,7 +91,23 @@
             "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
             "order": 2,
             "heading_level": 2,
-            "last_modified": "2025-10-09T02:00:12.641022+00:00"
+            "last_modified": "2025-10-09T03:18:42.072111+00:00"
+          },
+          {
+            "title": "Ribbon Main Menu",
+            "slug": "InAppHelp/MainApp/Ribbon_MainMenu/Ribbon_MainMenu.md",
+            "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+            "order": 3,
+            "heading_level": 2,
+            "last_modified": "2025-10-09T03:18:42.072111+00:00"
+          },
+          {
+            "title": "Tab Control Reports",
+            "slug": "InAppHelp/MainApp/TabControl_Reports/TabControl_Reports.md",
+            "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "order": 4,
+            "heading_level": 2,
+            "last_modified": "2025-10-09T03:19:40.852110+00:00"
           }
         ]
       },
@@ -109,7 +125,7 @@
                 "sha256": "7c7ce75fc3b6e61028a18b863d413183fbe6926e3e540241838d30ebb09e6236",
                 "order": 1,
                 "heading_level": 1,
-                "last_modified": "2025-10-09T02:00:12.641022+00:00"
+                "last_modified": "2025-10-09T03:18:42.073111+00:00"
               }
             ]
           }
